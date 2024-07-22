@@ -1,10 +1,35 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8" />
-<title>Код блочного сайта</title>
-
-
+<title>ежик-горшок</title>
 <style>
+  ul.nav{
+    margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+            }
+            ul.nav a {
+                display: block;
+                width: 7em;
+                padding:10px;
+                background-color: #f4f4f4;
+                border-top: 1px dashed #333;
+                border-right: 1px dashed #333;
+                border-left: 5px solid #333;
+                text-decoration: none;
+                color: #333;
+            }
+            ul.nav li:last-child a {
+                border-bottom: 1px dashed #333;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">О сайте</a></li>
+        </ul>
 body{
   background:#c0c0c0; /* Меняется фон экрана, выбирается здесь */
 }
@@ -121,7 +146,7 @@ h1{ /* Заголовок сайта */
         <p><img class="marcer" src="http://trueimages.ru/img/99/91/dea39f15.png" width="10" height="10">Безопасная оплата </p>
         <p><img class="marcer" src="http://trueimages.ru/img/99/91/dea39f15.png" width="10" height="10">Цена: 1500 р.</p>
 <!--Прямая синяя линия-->
-          <hr width="50" color="#4682B4" size="5">
+          <hr width="300" color="#4682B4" size="5">
 <!--Общая информация в сайдбаре-->
       <h3>Другая информация</h3>
     </div>
@@ -138,7 +163,7 @@ h1{ /* Заголовок сайта */
 <b>Материал:</b> Пластик<br>
 <b>Обьем,л:</b> 0,2<br>
 Быстрая доставка.</p>
-<p>Данный горшок прекрасно подойдет для вашего дома,<br>
+<p style="text-indent: 25px;">Данный горшок прекрасно подойдет для вашего дома,<br>
   ведь он очень стильный и современный. Горшок выполнен<br>
   из прочного пластика, имеено поэтому он выдержит падение<br>
   с вашего стола или подоконника.</p>
@@ -146,7 +171,7 @@ h1{ /* Заголовок сайта */
 <!--Картинка справа-->
       <img class="right" src="2.png" width="190" height="160">
 
-<p>Пластик из которого изготовлен горшочек прочный и качественный, <br>
+<p style="text-indent: 25px;">Пластик из которого изготовлен горшочек прочный и качественный, <br>
   но все же не стоит кидать его в стену или закапывать на заднем дворе.<br>
   Так же не стоит его резать или пилить болгаркой.<br> Вы можете использовать
   этот горшок не только для ваших цветов, кактусов или суккулентов,<br> его так же можно использовать
